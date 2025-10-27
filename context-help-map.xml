@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="notices" path="notices.html"/>
+   <appContext helpID="start_home" path="start/start.html"/>
+   <appContext helpID="start_get_started" path="start/get_started.html"/>
+   <appContext helpID="navigate" path="start/navigate.html"/>
+   <appContext helpID="system_requirements" path="system/system_requirements.html"/>
+   <appContext helpID="check_subscription" path="system/check_subscription.html"/>
+   <appContext helpID="device_licenses" path="system/device_licenses.html"/>
+   <appContext helpID="data_storage" path="system/data_storage.html"/>
+   <appContext helpID="add_dashboard" path="start/dashboard/add_dashboard.html"/>
+   <appContext helpID="build_apps" path="apps/build/build_apps.html"/>
+   <appContext helpID="apps_structure" path="apps/build/app_structure.html"/>
+   <appContext helpID="page_appstructure" path="apps/build/page.html"/>
+   <appContext helpID="forms_appstructure" path="apps/build/form.html"/>
+   <appContext helpID="hamburger_appstructure" path="apps/build/hamburger.html"/>
+   <appContext helpID="webpage_appstructure" path="apps/build/webpage.html"/>
+   <appContext helpID="rename_screens" path="apps/build/rename_screens.html"/>
+   <appContext helpID="rearrange_screens" path="apps/build/rearrange_screens.html"/>
+   <appContext helpID="delete_screens" path="apps/build/delete_screens.html"/>
+   <appContext helpID="edit_splash_screen" path="apps/build/edit_splash_screen.html"/>
+   <appContext helpID="widgets" path="apps/build/widgets/widgets.html"/>
+   <appContext helpID="add_widgets" path="apps/build/widgets/add_widgets.html"/>
+   <appContext helpID="delete_widget" path="apps/build/widgets/delete_widgets.html"/>
+   <appContext helpID="apps_creating_duplicate_widget"
+               path="apps/build/widgets/duplicate_widgets.html"/>
+   <appContext helpID="widget_types" path="apps/build/widgets/widget_types.html"/>
+   <appContext helpID="audio_widget" path="apps/build/widgets/audio_widget.html"/>
+   <appContext helpID="barcode_widget" path="apps/build/widgets/barcode_widget.html"/>
+   <appContext helpID="apps_creating_events_actions_map_scanned_value"
+               path="apps/build/widgets/events/actions_map_scanned_value.html"/>
+   <appContext helpID="button_widget" path="apps/build/widgets/button_widget.html"/>
+   <appContext helpID="camera_widget" path="apps/build/widgets/camera_widget.html"/>
+   <appContext helpID="checkbox_widget" path="apps/build/widgets/checkbox_widget.html"/>
+   <appContext helpID="date_widget" path="apps/build/widgets/date_widget.html"/>
+   <appContext helpID="dropdown_widget" path="apps/build/widgets/dropdown_widget.html"/>
+   <appContext helpID="external_data_widget"
+               path="apps/build/widgets/external_data_widget.html"/>
+   <appContext helpID="actions_map_columns"
+               path="apps/build/widgets/events/actions_map_columns.html"/>
+   <appContext helpID="file_upload_widget"
+               path="apps/build/widgets/file_upload_widget.html"/>
+   <appContext helpID="blacklisted_format"
+               path="apps/build/widgets/unsupported_file_formats.html"/>
+   <appContext helpID="geolocation_widget"
+               path="apps/build/widgets/geo_location_widget.html"/>
+   <appContext helpID="image_widget" path="apps/build/widgets/image_widget.html"/>
+   <appContext helpID="label_widget" path="apps/build/widgets/label_widget.html"/>
+   <appContext helpID="layout_widget" path="apps/build/widgets/layout_widget.html"/>
+   <appContext helpID="link_widget" path="apps/build/widgets/link_widget.html"/>
+   <appContext helpID="list_widget" path="apps/build/widgets/list_widget.html"/>
+   <appContext helpID="map_widget" path="apps/build/widgets/map_widget.html"/>
+   <appContext helpID="nfc_widget" path="apps/build/widgets/nfc_widget.html"/>
+   <appContext helpID="apps_creating_events_actions_map_read_value"
+               path="apps/build/widgets/events/actions_map_read_value.html"/>
+   <appContext helpID="paragraph_widget"
+               path="apps/build/widgets/paragraph_widget.html"/>
+   <appContext helpID="radiobutton_widget"
+               path="apps/build/widgets/radio_button_widget.html"/>
+   <appContext helpID="rating_widget" path="apps/build/widgets/rating_widget.html"/>
+   <appContext helpID="section_widget" path="apps/build/widgets/section_widget.html"/>
+   <appContext helpID="signature_widget"
+               path="apps/build/widgets/signature_widget.html"/>
+   <appContext helpID="switch_widget" path="apps/build/widgets/switch_widget.html"/>
+   <appContext helpID="textbox_widget" path="apps/build/widgets/textbox_widget.html"/>
+   <appContext helpID="apps_creating_add_youtube"
+               path="apps/build/widgets/youtube_widget.html"/>
+   <appContext helpID="events_actions"
+               path="apps/build/widgets/events/events_actions.html"/>
+   <appContext helpID="apps_creating_events_actions_tutorial"
+               path="apps/build/widgets/events/add_events_actions.html"/>
+   <appContext helpID="apps_creating_events_actions_js"
+               path="apps/build/widgets/events/actions_run_js.html"/>
+   <appContext helpID="apps_creating_events_actions_blockly"
+               path="apps/build/widgets/events/actions_run_blockly.html"/>
+   <appContext helpID="blockly_reference"
+               path="apps/build/widgets/events/blockly_reference.html"/>
+   <appContext helpID="assemblies" path="apps/build/assemblies/assemblies.html"/>
+   <appContext helpID="collection_assemblies"
+               path="apps/build/assemblies/collection_assemblies.html"/>
+   <appContext helpID="data_connections" path="data_connections/data_connections.html"/>
+   <appContext helpID="create_manage_de"
+               path="data_connections/export/data_export.html"/>
+   <appContext helpID="email_dataexport"
+               path="data_connections/export/email_dataexport.html"/>
+   <appContext helpID="google_drive_dataexport"
+               path="data_connections/export/google_drive_dataexport.html"/>
+   <appContext helpID="ftp_sftp_dataexport"
+               path="data_connections/export/ftp_sftp_dataexport.html"/>
+   <appContext helpID="onedrive_dataexport"
+               path="data_connections/export/onedrive_dataexport.html"/>
+   <appContext helpID="rest_dataexport"
+               path="data_connections/export/rest_dataexport.html"/>
+   <appContext helpID="server_side_script_dataexport"
+               path="data_connections/export/server_side_script_dataexport.html"/>
+   <appContext helpID="sharepoint_dataexport"
+               path="data_connections/export/sharepoint_dataexport.html"/>
+   <appContext helpID="assist_dataexport"
+               path="data_connections/export/assist_dataexport.html"/>
+   <appContext helpID="connect_dataexport"
+               path="data_connections/export/connect_dataexport.html"/>
+   <appContext helpID="mobicontrol_dataexport"
+               path="data_connections/export/mobicontrol_dataexport.html"/>
+   <appContext helpID="webhook_dataexport"
+               path="data_connections/export/webhook_dataexport.html"/>
+   <appContext helpID="zapier_dataexport"
+               path="data_connections/export/zapier_dataexport.html"/>
+   <appContext helpID="create_manage_di"
+               path="data_connections/import/data_import.html"/>
+   <appContext helpID="csv_dataimport"
+               path="data_connections/import/csv_dataimport.html"/>
+   <appContext helpID="google_sheet_dataimport"
+               path="data_connections/import/google_sheet_dataimport.html"/>
+   <appContext helpID="excel_dataimport"
+               path="data_connections/import/excel_dataimport.html"/>
+   <appContext helpID="onedrive_sheet_dataimport"
+               path="data_connections/import/onedrive_sheet_dataimport.html"/>
+   <appContext helpID="rest_service_dataimport"
+               path="data_connections/import/rest_service_dataimport.html"/>
+   <appContext helpID="server_side_dataimport"
+               path="data_connections/import/server_side_dataimport.html"/>
+   <appContext helpID="assist_dataimport"
+               path="data_connections/import/assist_dataimport.html"/>
+   <appContext helpID="connect_dataimport"
+               path="data_connections/import/connect_dataimport.html"/>
+   <appContext helpID="mobicontrol_dataimport"
+               path="data_connections/import/mobicontrol_dataimport.html"/>
+   <appContext helpID="data_connections_edit" path="data_connections/edit.html"/>
+   <appContext helpID="data_connections_activate"
+               path="data_connections/activate.html"/>
+   <appContext helpID="data_connections_deactivate"
+               path="data_connections/deactivate.html"/>
+   <appContext helpID="data_connections_delete" path="data_connections/delete.html"/>
+   <appContext helpID="app_environment_variables"
+               path="apps/build/environment_variables/app_environment_variables.html"/>
+   <appContext helpID="add_environmentvariables"
+               path="apps/build/environment_variables/add_environmentvariables.html"/>
+   <appContext helpID="edit_environmentvariables"
+               path="apps/build/environment_variables/edit_environmentvariables.html"/>
+   <appContext helpID="delete_environmentvariables"
+               path="apps/build/environment_variables/delete_environmentvariables.html"/>
+   <appContext helpID="update_apps" path="apps/othertasks/update_apps.html"/>
+   <appContext helpID="update_app_settings"
+               path="apps/othertasks/update_app_settings.html"/>
+   <appContext helpID="set_accesscontrol"
+               path="apps/access_control/set_accesscontrol.html"/>
+   <appContext helpID="preview_apps" path="apps/othertasks/preview_apps.html"/>
+   <appContext helpID="duplicate_apps" path="apps/othertasks/duplicate_apps.html"/>
+   <appContext helpID="activate_apps" path="apps/othertasks/activate_apps.html"/>
+   <appContext helpID="view_app_version" path="apps/othertasks/view_app_version.html"/>
+   <appContext helpID="apps_publish" path="apps/publish/publish.html"/>
+   <appContext helpID="apps_publish_set_field_mapping"
+               path="apps/publish/set_field_mapping.html"/>
+   <appContext helpID="apps_publish_field_mapping_issues"
+               path="apps/publish/field_mapping_issues.html"/>
+   <appContext helpID="agent_compatibility"
+               path="apps/publish/agent_compatibility.html"/>
+   <appContext helpID="distribute_devices" path="devices/distribute_devices.html"/>
+   <appContext helpID="groups" path="devices/groups/groups.html"/>
+   <appContext helpID="groups_create_group" path="devices/groups/create_group.html"/>
+   <appContext helpID="move_group" path="devices/groups/move_group.html"/>
+   <appContext helpID="groups_rename_group" path="devices/groups/rename_group.html"/>
+   <appContext helpID="groups_delete_group" path="devices/groups/delete_group.html"/>
+   <appContext helpID="enrollment_options"
+               path="devices/enrollment/enrollment_options.html"/>
+   <appContext helpID="email_enroll" path="devices/enrollment/email_enroll.html"/>
+   <appContext helpID="azure_ad_enroll" path="devices/enrollment/azure_ad_enroll.html"/>
+   <appContext helpID="enrollment_id_enroll"
+               path="devices/enrollment/enrollment_id_enroll.html"/>
+   <appContext helpID="enrollment_rules"
+               path="devices/enrollment/enrollment_rules.html"/>
+   <appContext helpID="deactivate_enrollment_rule"
+               path="devices/enrollment/deactivate_enrollment_rule.html"/>
+   <appContext helpID="activate_enrollment_rule"
+               path="devices/enrollment/activate_enrollment_rule.html"/>
+   <appContext helpID="delete_enrollment_rule"
+               path="devices/enrollment/delete_enrollment_rule.html"/>
+   <appContext helpID="multiple_tenant" path="devices/multiple_tenant.html"/>
+   <appContext helpID="create_announcements"
+               path="apps/othertasks/announcements/create_announcements.html"/>
+   <appContext helpID="update_announcements"
+               path="apps/othertasks/announcements/update_announcements.html"/>
+   <appContext helpID="copy_announcements"
+               path="apps/othertasks/announcements/copy_announcements.html"/>
+   <appContext helpID="delete_announcements"
+               path="apps/othertasks/announcements/delete_announcements.html"/>
+   <appContext helpID="publish_announcements"
+               path="apps/othertasks/announcements/publish_announcements.html"/>
+   <appContext helpID="unenroll_device" path="devices/unenroll_device.html"/>
+   <appContext helpID="deactivate_device" path="devices/deactivate_device.html"/>
+   <appContext helpID="activate_device" path="devices/activate_device.html"/>
+   <appContext helpID="delete_device" path="devices/delete_device.html"/>
+   <appContext helpID="share_apps" path="apps/share/share_apps.html"/>
+   <appContext helpID="create_shareablelinks"
+               path="apps/share/create_shareablelinks.html"/>
+   <appContext helpID="import_shareablelinks"
+               path="apps/share/import_shareablelinks.html"/>
+   <appContext helpID="edit_shareablelinks" path="apps/share/edit_shareablelinks.html"/>
+   <appContext helpID="view_shareablelinks" path="apps/share/view_shareablelinks.html"/>
+   <appContext helpID="history_shareablelinks"
+               path="apps/share/history_shareablelinks.html"/>
+   <appContext helpID="delete_shareablelinks"
+               path="apps/share/delete_shareablelinks.html"/>
+   <appContext helpID="copylink_shareablelinks"
+               path="apps/share/copylink_shareablelinks.html"/>
+   <appContext helpID="import_failure_shareablelinks"
+               path="apps/share/import_failure_shareablelinks.html"/>
+   <appContext helpID="reports" path="reports/reports.html"/>
+   <appContext helpID="view_report" path="reports/view_report.html"/>
+   <appContext helpID="export_report" path="reports/export_report.html"/>
+   <appContext helpID="templates_reports"
+               path="reports/templates/templates_reports.html"/>
+   <appContext helpID="create_template_report"
+               path="reports/templates/create_template_report.html"/>
+   <appContext helpID="edit_template_report"
+               path="reports/templates/edit_template_report.html"/>
+   <appContext helpID="deactivate_template_report"
+               path="reports/templates/deactivate_template_report.html"/>
+   <appContext helpID="activate_template_report"
+               path="reports/templates/activate_template_report.html"/>
+   <appContext helpID="delete_template_report"
+               path="reports/templates/delete_template_report.html"/>
+   <appContext helpID="editdataentries_report"
+               path="reports/editdataentries_report.html"/>
+   <appContext helpID="extend" path="other/extend.html"/>
+   <appContext helpID="add_app_lockdown" path="other/add_app_lockdown.html"/>
+   <appContext helpID="external_app" path="other/external_app.html"/>
+   <appContext helpID="retire_apps" path="apps/othertasks/retire_apps.html"/>
+   <appContext helpID="apps_deleting" path="apps/othertasks/delete_apps.html"/>
+   <appContext helpID="apps_deact" path="apps/othertasks/deactivate_apps.html"/>
+   <appContext helpID="settings_manage_settings" path="system/manage_settings.html"/>
+   <appContext helpID="sotiidentity"
+               path="system/user_management/user_management.html"/>
+   <appContext helpID="settings_users" path="system/user_management/users.html"/>
+   <appContext helpID="permissions" path="system/user_management/permissions.html"/>
+   <appContext helpID="devices_settings" path="system/device_settings.html"/>
+   <appContext helpID="settings_channels" path="system/channel/channels.html"/>
+   <appContext helpID="snap_enduser_overview" path="app_user/appuser.html"/>
+   <appContext helpID="enduser_enroll" path="app_user/enroll.html"/>
+   <appContext helpID="enduser_enroll_multiple_tenants"
+               path="app_user/enroll_multiple.html"/>
+   <appContext helpID="enduser_reorder_tenants" path="app_user/reorder_company.html"/>
+   <appContext helpID="enduser_delete_tenants" path="app_user/delete_company.html"/>
+   <appContext helpID="update_agent" path="app_user/update_agent.html"/>
+   <appContext helpID="troubleshoot_agent" path="app_user/troubleshoot_agent.html"/>
+   <appContext helpID="enduser_agentlog_view" path="app_user/agent_log_view.html"/>
+   <appContext helpID="enduser_agentlog_download"
+               path="app_user/agent_log_download.html"/>
+   <appContext helpID="enduser_agentlog_share" path="app_user/agent_log_share.html"/>
+   <appContext helpID="enduser_agentlog_debug" path="app_user/agent_log_debug.html"/>
+   <appContext helpID="add_widgets" path="apps/build/widgets/add_widgets.html"/>
+   <appContext helpID="widget_types" path="apps/build/widgets/widget_types.html"/>
+   <appContext helpID="barcode_widget" path="apps/build/widgets/barcode_widget.html"/>
+   <appContext helpID="apps_creating_events_actions_map_scanned_value"
+               path="apps/build/widgets/events/actions_map_scanned_value.html"/>
+   <appContext helpID="nfc_widget" path="apps/build/widgets/nfc_widget.html"/>
+   <appContext helpID="apps_creating_events_actions_map_read_value"
+               path="apps/build/widgets/events/actions_map_read_value.html"/>
+   <appContext helpID="apps_creating_events_actions_js"
+               path="apps/build/widgets/events/actions_run_js.html"/>
+   <appContext helpID="apps_creating_events_actions_blockly"
+               path="apps/build/widgets/events/actions_run_blockly.html"/>
+   <appContext helpID="file_upload_widget"
+               path="apps/build/widgets/file_upload_widget.html"/>
+   <appContext helpID="blacklisted_format"
+               path="apps/build/widgets/unsupported_file_formats.html"/>
+   <appContext helpID="add_app_lockdown" path="other/add_app_lockdown.html"/>
+   <appContext helpID="enrollment_id_enroll"
+               path="devices/enrollment/enrollment_id_enroll.html"/>
+   <appContext helpID="build_apps" path="apps/build/build_apps.html"/>
+   <appContext helpID="add_widgets" path="apps/build/widgets/add_widgets.html"/>
+   <appContext helpID="apps_structure" path="apps/build/app_structure.html"/>
+   <appContext helpID="data_connections" path="data_connections/data_connections.html"/>
+   <appContext helpID="apps_publish" path="apps/publish/publish.html"/>
+</map>

@@ -1,0 +1,360 @@
+@charset "UTF-8";
+@import url(fonts/style.css);
+@font-face
+{
+	font-family:'icomoon';
+	src: url(fonts/icomoon.woff) format(woff) local(icomoon);
+	font-weight: normal;
+	font-style: normal;
+}
+body
+{
+	font-family: 'Rubik', 'icomoon', sans-serif;
+}
+
+/*Navigation - Header and footer*/
+.wh_header, .wh_footer
+{
+	background:#0074AA ;
+}
+div.wh_logo_and_publication_title_container
+{
+	width:100%;
+}
+.wh_logo_and_publication_title
+{
+	flex-wrap:wrap;
+	align-items:baseline;
+}
+a.wh_logo > img
+{
+	max-height:40px;
+	min-height:20px;
+}
+.wh_logo.d-none.d-sm-block
+{
+	display:block !important;
+
+}
+.wh_publication_title
+{
+	display:none;
+}
+.wh_logo.d-none.d-sm-block::after
+{
+	content:"Help";
+	margin-left:15px;
+	color:white;
+	font-size:18pt;
+	vertical-align:middle;
+	border-left: 2px solid white;
+	padding-left:15px;
+}
+.wh_publication_title a
+{
+	margin:0.5em 0;
+}
+/*link to docs.soti.net*/
+.supportpage {
+	background-color:transparent;
+	border-radius: 2px;
+	margin-left:auto;
+	padding:.5rem .8rem;
+	border: 1px solid white;
+}
+.supportpage:hover {
+	background-color: #103766;
+}
+.supportpage a {
+	color:white;
+}
+.supportpage a[target="_blank"]::after {
+	content:none;
+}
+div.versionlist
+{
+	margin-left:1.5em;
+}
+label[for*="versionlist"]
+{
+	padding:4px;
+	font-weight: normal;
+	margin-right:5px;
+	color:#ffffff;
+}
+/*hides top menu navigation links on large screens*/
+@media only screen and (min-width:768px){
+	.wh_top_menu {
+		display:none;
+	  }
+}
+/*Use ruleset below if you want to hide only some of the top menu navigation links. Where data id="topicid"
+
+@media only screen and (min-width:768px){
+.wh_top_menu *[data-id="adminindex"], *[data-id="setupindex"]{
+	display:none;
+  }
+}
+*/
+
+/* Search Bar*/
+.wh_search_input.navbar-form.wh_main_page_search, .wh_search_input
+{
+	background:#f5f6f6;
+}
+.wh_search_button
+{
+	background-color:#0074AA;
+}
+.wh_search_input.navbar-form.wh_main_page_search
+{
+	padding:2em 0;
+}
+
+/*Non-header navigation*/
+
+div.wh_publication_toc, nav.wh_tools.d-print-none {
+	background-color: transparent;
+}
+.wh_publication_toc span, .wh_publication_toc a, .wh_publication_toc a:visited, .wh_publication_toc a:hover {
+	color:#292929;
+}
+.wh_breadcrumb li:not(:last-of-type):after
+{
+	content:"\e920";
+	padding:0 5px;
+	vertical-align:middle;
+}
+.wh_breadcrumb ol {
+	color:#292929;
+}
+.wh_breadcrumb ol .active, a, .wh_publication_toc .active > .topicref a {
+	color:#256297;
+}
+#wh_toc_button
+{
+	display:none;
+}
+.wh-tooltip-container .wh-tooltip,
+.wh_breadcrumb .topicref .wh-tooltip,
+.wh_publication_toc .topicref .wh-tooltip
+{
+	display:none;
+}
+/*Topic*/
+div.note>span.note__title
+{
+	background:none !important;
+	padding:0;
+}
+div.note
+{
+    border-left: 4px solid #0074AA;
+    background-color:#E2F3FA;
+}
+
+div.tip
+{
+	border-left: 4px solid #7AC142;
+	background-color:#F2F8ED;
+}
+div.important
+{
+	border-left: 4px solid#FFF100;
+	background-color:#FFFBDB;
+}
+div.caution
+{
+	border-left: 4px solid #F26B21;
+	background-color:#FFF1E9;
+}
+div.warning
+{
+	border-left: 4px solid #E32722;
+	background-color: #FEF0ED;
+}
+div.revrel {
+	border-left: 4px solid #EF6C00;
+	background-color:#FFF3E0;
+}
+table
+{
+	margin-top:1em;
+}
+caption:empty
+{
+	display:none;
+}
+pre
+{
+	background-color: #ECEFF0;
+	font-family: monospace;
+	font-size:90%;
+	max-height:400px;
+	overflow:auto;
+	padding:4px 8px;
+	border-left: 4px solid #664FA1;
+	border-radius:0;
+	margin-left:0px;
+}
+code
+{
+	background-color:#E4E7E9;
+	font-family: monospace;
+	font-size:90%;
+	border-radius:3px;
+	padding:2px;
+	line-height:1.7;
+}
+pre code, .wh_breadcrumb code, .wh_main_page_toc_entry code
+{
+	background-color:transparent;
+}
+h2.sectiontitle
+{
+	margin-bottom:1em;
+}
+.stepsection {
+
+	padding: .8rem .5rem;
+	border-top:1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+}
+a[target="_blank"]::after
+{
+	font-size:1rem;
+	content:"\e960";
+	padding-left:3px;
+}
+figure {
+	margin-top: .5rem;
+}
+figure img, .imagemap .image
+{
+	box-shadow:0 0 0 1px rgba(0,0,0,.05),0 5px 10px rgba(0,0,0,.15);
+}
+div.embed-responsive
+{
+	background-color:transparent;
+	box-shadow:0 0 0 1px rgba(0,0,0,.05),0 5px 10px rgba(0,0,0,.15);
+}
+@media only screen and (min-width:768px) {
+	div.embed-responsive, figure img {
+		max-width: 85%;
+	}
+}
+iframe.iframe.embed-responsive-item {
+	padding-bottom:10px;
+}
+.filepath {
+	word-break: break-word;
+	color:black !important;
+	background-color:#E4E7E9;
+	font-family: inherit;
+	border-radius:3px;
+	padding:2px;
+}
+/*task labels: prereq, postreq*/
+h2.tasklabel
+{
+	font-weight:normal;
+	font-size:1.5em;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}
+section.prereq
+{
+	border-bottom: 1px solid #AAAAAB;
+}
+section.postreq
+{
+	border-top:1px solid #AAAAAB;
+}
+.dialogtable td:nth-child(1)
+{
+	background-color:#ECEFF0;
+	width:25%;
+}
+td:nth-child(1)
+{
+	min-width: 25%;
+}
+.iconrotate_ninety
+{
+	transform:rotate(90deg);
+	display:inline-block;
+}
+/*Fix for the floating footer from https://codepen.io/cbracco/pen/zekgx*/
+html {
+	height: 100%;
+}
+body {
+  position: relative;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+.navbar.navbar-default.wh_footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.5rem;
+  text-align: center;
+}
+.upgradepath td:not(:nth-child(1)), .upgradepath th:not(:nth-child(1)){
+	background-color:#f2f2f2;
+}
+.upgradepath td:nth-child(1), .upgradepath th:nth-child(1) {
+	border-right: 2px solid black;
+}
+table.scriptcmds td, table.scriptcmds th {
+	width:50%;
+}
+/*makes vendor compatibility tables in mc help mobile friendly*/
+@media only screen and (max-width:768px){
+	table.vendorcomp, table.vendorcomp thead, table.vendorcomp tbody, table.vendorcomp th, table.vendorcomp td, table.vendorcomp tr {
+		display:block;
+	}
+	table.vendorcomp thead tr {
+		position:absolute;
+		top:-9999px;
+		left:-9999px;
+	}
+	table.vendorcomp td {
+		border:none;
+		border-bottom: 1px solid #ECEFF0;
+		position:relative;
+		padding-left:50%;
+	}
+	table.vendorcomp td::before {
+		position:absolute;
+		top:6px;
+		left:6px;
+		width:45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	table.vendorcomp td:nth-of-type(1) { background-color: #ECEFF0;}
+	table.vendorcomp td:nth-of-type(1)::before {content: "Feature Name"}
+	table.vendorcomp td:nth-of-type(2)::before {content: "Generic"}
+	table.vendorcomp td:nth-of-type(3)::before {content: "Plus"}
+	table.vendorcomp td:nth-of-type(4)::before {content: "Samsung Signed"}
+	table.vendorcomp td:nth-of-type(5)::before {content: "Amazon"}
+	table.vendorcomp td:nth-of-type(6)::before {content: "Casio"}
+	table.vendorcomp td:nth-of-type(7)::before {content: "DRS"}
+	table.vendorcomp td:nth-of-type(8)::before {content: "Samsung ELM Signed"}
+	table.vendorcomp td:nth-of-type(9)::before {content: "Honeywell"}
+	table.vendorcomp td:nth-of-type(10)::before {content: "HTC"}
+	table.vendorcomp td:nth-of-type(11)::before {content: "Huawei"}
+	table.vendorcomp td:nth-of-type(12)::before {content: "Kyocera"}
+	table.vendorcomp td:nth-of-type(13)::before {content: "Lenovo"}
+	table.vendorcomp td:nth-of-type(14)::before {content: "LG"}
+	table.vendorcomp td:nth-of-type(15)::before {content: "Motorola"}
+	table.vendorcomp td:nth-of-type(16)::before {content: "Panasonic"}
+	table.vendorcomp td:nth-of-type(17)::before {content: "Pidion"}
+	table.vendorcomp td:nth-of-type(18)::before {content: "Sony"}
+	table.vendorcomp td:nth-of-type(19)::before {content: "Unitech"}
+	table.vendorcomp td:nth-of-type(20)::before {content: "Zebra"}
+	table.vendorcomp td:nth-of-type(21)::before {content: "Enterprise"}
+}
+
