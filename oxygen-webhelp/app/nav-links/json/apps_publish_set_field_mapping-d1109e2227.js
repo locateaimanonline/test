@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"apps_publish_set_field_mapping-d1109e2227":{"topics":[{"title":"Field Mapping Errors and Warnings","href":"apps\/publish\/field_mapping_issues.html","attributes":{"data-id":"apps_publish_field_mapping_issues"},"menu":{"hasChildren":false},"tocID":"apps_publish_field_mapping_issues-d1109e2247","topics":[]}]}};

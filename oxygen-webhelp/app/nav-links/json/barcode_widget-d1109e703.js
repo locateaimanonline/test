@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"barcode_widget-d1109e703":{"topics":[{"title":"Map Scanned Value","href":"apps\/build\/widgets\/events\/actions_map_scanned_value.html","attributes":{"data-id":"apps_creating_events_actions_map_scanned_value"},"menu":{"hasChildren":false},"tocID":"apps_creating_events_actions_map_scanned_value-d1109e723","topics":[]}]}};

@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"nfc_widget-d1109e1064":{"topics":[{"title":"Map Read Value","href":"apps\/build\/widgets\/events\/actions_map_read_value.html","attributes":{"data-id":"apps_creating_events_actions_map_read_value"},"menu":{"hasChildren":false},"tocID":"apps_creating_events_actions_map_read_value-d1109e1084","topics":[]}]}};

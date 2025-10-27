@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"external_data_widget-d1109e843":{"topics":[{"title":"Map Columns","href":"apps\/build\/widgets\/events\/actions_map_columns.html","attributes":{"data-id":"actions_map_columns"},"menu":{"hasChildren":false},"tocID":"actions_map_columns-d1109e863","topics":[]}]}};
