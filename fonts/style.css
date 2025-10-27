@@ -1,0 +1,1064 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?rqe6gn');
+  src:  url('fonts/icomoon.eot?rqe6gn#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?rqe6gn') format('truetype'),
+    url('fonts/icomoon.woff?rqe6gn') format('woff'),
+    url('fonts/icomoon.svg?rqe6gn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="ngui-"], [class*=" ngui-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ngui-icon-activationlocksettings:before {
+  content: "\ea39";
+}
+.ngui-icon-bluetoothsettings:before {
+  content: "\ea3a";
+}
+.ngui-icon-defaultlogo:before {
+  content: "\ea3b";
+}
+.ngui-icon-roamingrestrictions:before {
+  content: "\ea3c";
+}
+.ngui-icon-supportcontactinfo:before {
+  content: "\ea3d";
+}
+.ngui-icon-agentsettings:before {
+  content: "\ea38";
+}
+.ngui-icon-unlockuseraccount:before {
+  content: "\ea36";
+}
+.ngui-icon-migratetoandroidenterprise:before {
+  content: "\ea37";
+}
+.ngui-icon-draft:before {
+  content: "\ea18";
+}
+.ngui-icon-disabled:before {
+  content: "\ea19";
+}
+.ngui-icon-assigned:before {
+  content: "\ea1a";
+}
+.ngui-icon-revoked:before {
+  content: "\ea1b";
+}
+.ngui-icon-configured:before {
+  content: "\ea1b";
+}
+.ngui-icon-resetcontainerpasscode:before {
+  content: "\ea0d";
+}
+.ngui-icon-map:before {
+  content: "\ea0e";
+}
+.ngui-icon-sidebar:before {
+  content: "\ea0c";
+}
+.ngui-icon-importcustomattributes:before {
+  content: "\ea0b";
+}
+.ngui-icon-screen-DeviceWindowsHoloLens:before {
+  content: "\ea08";
+}
+.ngui-icon-type-DeviceWindowsHoloLens:before {
+  content: "\ea09";
+}
+.ngui-icon-platform-DeviceWindowsHoloLens:before {
+  content: "\ea0a";
+}
+.ngui-icon-updateprogram:before {
+  content: "\ea07";
+}
+.ngui-icon-browsefiles:before {
+  content: "\ea06";
+}
+.ngui-icon-linuxsoftwareupdateschedule:before {
+  content: "\ea04";
+}
+.ngui-icon-nopackage:before {
+  content: "\ea05";
+}
+.ngui-icon-enrollinefota:before {
+  content: "\ea02";
+}
+.ngui-icon-filetype-certificate:before {
+  content: "\e9bb";
+}
+.ngui-icon-devicecertificate:before {
+  content: "\e9bb";
+}
+.ngui-icon-stackedbarchart:before {
+  content: "\e9fa";
+}
+.ngui-icon-barchart:before {
+  content: "\e9fb";
+}
+.ngui-icon-stackeddonutchart:before {
+  content: "\e9fc";
+}
+.ngui-icon-donutchart:before {
+  content: "\e9fd";
+}
+.ngui-icon-packages:before {
+  content: "\e9f8";
+}
+.ngui-icon-blockexchangeaccess:before {
+  content: "\e9f4";
+}
+.ngui-icon-allowexchangeaccess:before {
+  content: "\e9f5";
+}
+.ngui-icon-renewcertificate:before {
+  content: "\e9f6";
+}
+.ngui-icon-revokecertificate:before {
+  content: "\e9f7";
+}
+.ngui-icon-authentication:before {
+  content: "\e9ed";
+}
+.ngui-icon-email:before {
+  content: "\e9ee";
+}
+.ngui-icon-profile-email:before {
+  content: "\e9ee";
+}
+.ngui-icon-profile-emailandroid:before {
+  content: "\e9ee";
+}
+.ngui-icon-payload:before {
+  content: "\e9f3";
+}
+.ngui-icon-syncfilesnow:before {
+  content: "\e9d9";
+}
+.ngui-icon-deviceactions:before {
+  content: "\e9d6";
+}
+.ngui-icon-disableagentupgrade:before {
+  content: "\e9d5";
+}
+.ngui-icon-resetuserbinding:before {
+  content: "\e9d0";
+}
+.ngui-icon-logprerebootsecurity:before {
+  content: "\e9cc";
+}
+.ngui-icon-filetype-music:before {
+  content: "\e9c6";
+}
+.ngui-icon-folder:before {
+  content: "\e95d";
+}
+.ngui-icon-alldevice:before {
+  content: "\e90c";
+}
+.ngui-icon-nodevice:before {
+  content: "\e999";
+}
+.ngui-icon-includesubfolder:before {
+  content: "\e91b";
+}
+.ngui-icon-folderfilter:before {
+  content: "\e9b4";
+}
+.ngui-icon-foldervirtual:before {
+  content: "\e9b5";
+}
+.ngui-icon-allowsotihub:before {
+  content: "\e9b1";
+}
+.ngui-icon-blocksotihub:before {
+  content: "\e9b2";
+}
+.ngui-icon-clearsotihubcache:before {
+  content: "\e9b3";
+}
+.ngui-icon-serveroffline:before {
+  content: "\e9af";
+}
+.ngui-icon-blocksotisurf:before {
+  content: "\e99e";
+}
+.ngui-icon-remotering:before {
+  content: "\e99f";
+}
+.ngui-icon-savesearch:before {
+  content: "\e99c";
+}
+.ngui-icon-close:before {
+  content: "\e96c";
+}
+.ngui-icon-softreset:before {
+  content: "\e997";
+}
+.ngui-icon-calender:before {
+  content: "\e993";
+}
+.ngui-icon-password:before {
+  content: "\e962";
+}
+.ngui-icon-resetpasscode:before {
+  content: "\e962";
+}
+.ngui-icon-setfirmwarepassword:before {
+  content: "\e962";
+}
+.ngui-icon-username:before {
+  content: "\e905";
+}
+.ngui-icon-user1:before {
+  content: "\e905";
+}
+.ngui-icon-usergroup1:before {
+  content: "\e905";
+}
+.ngui-icon-changeuser:before {
+  content: "\e994";
+}
+.ngui-icon-application:before {
+  content: "\e990";
+}
+.ngui-icon-profile:before {
+  content: "\e98f";
+}
+.ngui-icon-operatorcontains:before {
+  content: "\e97f";
+}
+.ngui-icon-operatorcontainsnot:before {
+  content: "\e980";
+}
+.ngui-icon-operatorendswith:before {
+  content: "\e981";
+}
+.ngui-icon-operatorendswithnot:before {
+  content: "\e982";
+}
+.ngui-icon-operatorgreaterthan:before {
+  content: "\e983";
+}
+.ngui-icon-operatorgreaterthanequalsto:before {
+  content: "\e984";
+}
+.ngui-icon-operatoris:before {
+  content: "\e985";
+}
+.ngui-icon-operatorisnot:before {
+  content: "\e986";
+}
+.ngui-icon-operatorlessthan:before {
+  content: "\e987";
+}
+.ngui-icon-operatorlessthanequalsto:before {
+  content: "\e988";
+}
+.ngui-icon-operatorstartswith:before {
+  content: "\e989";
+}
+.ngui-icon-operatorstartswithnot:before {
+  content: "\e98a";
+}
+.ngui-icon-operatorbetweennot:before {
+  content: "\e98b";
+}
+.ngui-icon-operatorbetween:before {
+  content: "\e98c";
+}
+.ngui-icon-blockline:before {
+  content: "\e976";
+}
+.ngui-icon-movearrow:before {
+  content: "\e977";
+}
+.ngui-icon-triangle:before {
+  content: "\e978";
+}
+.ngui-icon-key:before {
+  content: "\e972";
+}
+.ngui-icon-logfileencryption:before {
+  content: "\e972";
+}
+.ngui-icon-applesoftwareupdatescan:before {
+  content: "\e973";
+}
+.ngui-icon-globe:before {
+  content: "\e95f";
+}
+.ngui-icon-platform-DeviceIos:before {
+  content: "\e90f";
+}
+.ngui-icon-platform-DeviceMac:before {
+  content: "\e935";
+}
+.ngui-icon-apple:before {
+  content: "\e914";
+}
+.ngui-icon-platform-DeviceAndroidGeneric:before {
+  content: "\e936";
+}
+.ngui-icon-android:before {
+  content: "\e917";
+}
+.ngui-icon-androidplus:before {
+  content: "\e913";
+}
+.ngui-icon-androidplus-regular:before {
+  content: "\e913";
+}
+.ngui-icon-platform-DeviceAndroidKnox:before {
+  content: "\e939";
+}
+.ngui-icon-platform-DeviceAndroidPlus:before {
+  content: "\e93b";
+}
+.ngui-icon-platform-DeviceAndroidElm:before {
+  content: "\e93d";
+}
+.ngui-icon-platform-DeviceAndroidForWork:before {
+  content: "\e93f";
+}
+.ngui-icon-platform-DeviceWindowsPhone:before {
+  content: "\e94d";
+}
+.ngui-icon-winmodern:before {
+  content: "\e915";
+}
+.ngui-icon-platform-DeviceWindowsDesktop:before {
+  content: "\e93c";
+}
+.ngui-icon-winclassic:before {
+  content: "\e916";
+}
+.ngui-icon-platform-DeviceWindowsDesktopLegacy:before {
+  content: "\e93a";
+}
+.ngui-icon-platform-DeviceWindowsCE:before {
+  content: "\e937";
+}
+.ngui-icon-platform-DeviceWindowsRuntime:before {
+  content: "\e93e";
+}
+.ngui-icon-zebra:before {
+  content: "\e92a";
+}
+.ngui-icon-platform-DeviceZebraPrinter:before {
+  content: "\e902";
+}
+.ngui-icon-platform-Linux:before {
+  content: "\e995";
+}
+.ngui-icon-cog:before {
+  content: "\e934";
+}
+.ngui-icon-customchart:before {
+  content: "\e934";
+}
+.ngui-icon-copy:before {
+  content: "\e903";
+}
+.ngui-icon-chart:before {
+  content: "\e907";
+}
+.ngui-icon-nochart:before {
+  content: "\e95e";
+}
+.ngui-icon-search:before {
+  content: "\e90a";
+}
+.ngui-icon-addnew:before {
+  content: "\e900";
+}
+.ngui-icon-moreitem:before {
+  content: "\e924";
+}
+.ngui-icon-bypassactivationlock:before {
+  content: "\e996";
+}
+.ngui-icon-scanforviruses:before {
+  content: "\e918";
+}
+.ngui-icon-updatevirusdefinitions:before {
+  content: "\e91a";
+}
+.ngui-icon-remove:before {
+  content: "\e974";
+}
+.ngui-icon-unenroll:before {
+  content: "\e929";
+}
+.ngui-icon-setwallpaper:before {
+  content: "\e9b6";
+}
+.ngui-icon-remotecontrol:before {
+  content: "\e91d";
+}
+.ngui-icon-remoteview:before {
+  content: "\e97d";
+}
+.ngui-icon-disablepasscodelock:before {
+  content: "\e9b0";
+}
+.ngui-icon-download:before {
+  content: "\e9a6";
+}
+.ngui-icon-loginstall:before {
+  content: "\e9a6";
+}
+.ngui-icon-system:before {
+  content: "\e9a8";
+}
+.ngui-icon-server:before {
+  content: "\e9a9";
+}
+.ngui-icon-geofence:before {
+  content: "\e9ad";
+}
+.ngui-icon-track:before {
+  content: "\e9ae";
+}
+.ngui-icon-clearsotisurfcache:before {
+  content: "\e9a5";
+}
+.ngui-icon-licenseexpire:before {
+  content: "\e9a1";
+}
+.ngui-icon-megaphone:before {
+  content: "\e9a2";
+}
+.ngui-icon-message:before {
+  content: "\e9a3";
+}
+.ngui-icon-scoring:before {
+  content: "\e9a4";
+}
+.ngui-icon-turnoffsuspend:before {
+  content: "\e9a0";
+}
+.ngui-icon-allowsotisurf:before {
+  content: "\e99d";
+}
+.ngui-icon-refresh:before {
+  content: "\e998";
+}
+.ngui-icon-createsupportticket:before {
+  content: "\e992";
+}
+.ngui-icon-sendmessage:before {
+  content: "\e96a";
+}
+.ngui-icon-checkin:before {
+  content: "\e91f";
+}
+.ngui-icon-delete:before {
+  content: "\e904";
+}
+.ngui-icon-deleteuser:before {
+  content: "\e904";
+}
+.ngui-icon-lock:before {
+  content: "\e921";
+}
+.ngui-icon-logsecurity:before {
+  content: "\e921";
+}
+.ngui-icon-clearrestrictions:before {
+  content: "\e991";
+}
+.ngui-icon-colour:before {
+  content: "\e931";
+}
+.ngui-icon-rename:before {
+  content: "\e91e";
+}
+.ngui-icon-edit:before {
+  content: "\e91e";
+}
+.ngui-icon-setdevicename:before {
+  content: "\e979";
+}
+.ngui-icon-applesoftwareupdaterefreshstatus:before {
+  content: "\e97c";
+}
+.ngui-icon-applesoftwareupdateschedule:before {
+  content: "\e97e";
+}
+.ngui-icon-sendtestpage:before {
+  content: "\e90b";
+}
+.ngui-icon-sendscript:before {
+  content: "\e970";
+}
+.ngui-icon-sendscriptviapns:before {
+  content: "\e970";
+}
+.ngui-icon-disable:before {
+  content: "\e967";
+}
+.ngui-icon-enable:before {
+  content: "\e968";
+}
+.ngui-icon-wipe:before {
+  content: "\e95b";
+}
+.ngui-icon-wipeprogramdata:before {
+  content: "\e95b";
+}
+.ngui-icon-locate:before {
+  content: "\e969";
+}
+.ngui-icon-device:before {
+  content: "\e9aa";
+}
+.ngui-icon-locksolid:before {
+  content: "\e96b";
+}
+.ngui-icon-warning-alt:before {
+  content: "\e9ab";
+}
+.ngui-icon-warning:before {
+  content: "\e91c";
+}
+.ngui-icon-link:before {
+  content: "\e960";
+}
+.ngui-icon-filter:before {
+  content: "\e92b";
+}
+.ngui-icon-virtual:before {
+  content: "\e99a";
+}
+.ngui-icon-attention:before {
+  content: "\e927";
+}
+.ngui-icon-sortup:before {
+  content: "\e919";
+}
+.ngui-icon-sortdown:before {
+  content: "\e906";
+}
+.ngui-icon-doublechevron:before {
+  content: "\e98e";
+}
+.ngui-icon-selection:before {
+  content: "\e926";
+}
+.ngui-icon-circle:before {
+  content: "\e932";
+}
+.ngui-icon-selected:before {
+  content: "\e925";
+}
+.ngui-icon-error:before {
+  content: "\e98d";
+}
+.ngui-icon-deletequery:before {
+  content: "\e98d";
+}
+.ngui-icon-question:before {
+  content: "\e971";
+}
+.ngui-icon-info:before {
+  content: "\e975";
+}
+.ngui-icon-clock:before {
+  content: "\e95c";
+}
+.ngui-icon-comingsoon:before {
+  content: "\e95c";
+}
+.ngui-icon-check:before {
+  content: "\e922";
+}
+.ngui-icon-arrowdownright:before {
+  content: "\e97a";
+}
+.ngui-icon-arrowupright:before {
+  content: "\e97b";
+}
+.ngui-icon-logout:before {
+  content: "\e961";
+}
+.ngui-icon-movecolumn:before {
+  content: "\e923";
+}
+.ngui-icon-soti:before {
+  content: "\e964";
+}
+.ngui-icon-sotimobicontrol:before {
+  content: "\e965";
+}
+.ngui-icon-passwordexpired:before {
+  content: "\ea35";
+}
+.ngui-icon-signoutuser:before {
+  content: "\ea32";
+}
+.ngui-icon-shareddevicelogout:before {
+  content: "\ea32";
+}
+.ngui-icon-bookmark:before {
+  content: "\ea33";
+}
+.ngui-icon-advancedconfiguration:before {
+  content: "\ea34";
+}
+.ngui-icon-user:before {
+  content: "\ea30";
+}
+.ngui-icon-usergroup:before {
+  content: "\ea31";
+}
+.ngui-icon-ldap:before {
+  content: "\ea2f";
+}
+.ngui-icon-windowsphone-windowshololens:before {
+  content: "\ea2c";
+}
+.ngui-icon-logdebug:before {
+  content: "\ea2d";
+}
+.ngui-icon-linuxsoftwareupdatescan:before {
+  content: "\ea2e";
+}
+.ngui-S1_Tagline:before {
+  content: "\ea2b";
+}
+.ngui-SOTI_ONE:before {
+  content: "\ea23";
+}
+.ngui-icon-sotimobicontrol-full:before {
+  content: "\ea2a";
+}
+.ngui-icon-profile-other:before {
+  content: "\e912";
+}
+.ngui-icon-profile-otherwithsecurity:before {
+  content: "\e912";
+}
+.ngui-icon-profile-printer:before {
+  content: "\e963";
+}
+.ngui-icon-profile-restrictions:before {
+  content: "\ea27";
+}
+.ngui-icon-profile-securedcontentlibrary:before {
+  content: "\ea28";
+}
+.ngui-icon-profile-security:before {
+  content: "\ea29";
+}
+.ngui-icon-profile-securityrest:before {
+  content: "\ea29";
+}
+.ngui-icon-multifilter:before {
+  content: "\ea25";
+}
+.ngui-icon-readonly:before {
+  content: "\ea21";
+}
+.ngui-icon-userpermission:before {
+  content: "\ea22";
+}
+.ngui-icon-owner:before {
+  content: "\ea24";
+}
+.ngui-icon-playsound:before {
+  content: "\ea20";
+}
+.ngui-icon-addpackage:before {
+  content: "\e933";
+}
+.ngui-icon-checkbox-selected:before {
+  content: "\ea1d";
+}
+.ngui-icon-checkbox:before {
+  content: "\ea1e";
+}
+.ngui-icon-updatelicense:before {
+  content: "\ea1f";
+}
+.ngui-icon-drag:before {
+  content: "\ea1c";
+}
+.ngui-icon-draft-alt:before {
+  content: "\ea0f";
+}
+.ngui-icon-windowsphone-windows10phone:before {
+  content: "\ea10";
+}
+.ngui-icon-apple-applemacdevice:before {
+  content: "\ea11";
+}
+.ngui-icon-windowsphone-windows10desktop:before {
+  content: "\ea12";
+}
+.ngui-icon-apple-appleios:before {
+  content: "\ea13";
+}
+.ngui-icon-apple-applemacuser:before {
+  content: "\ea14";
+}
+.ngui-icon-androidplus-androidwork:before {
+  content: "\ea15";
+}
+.ngui-icon-androidplus-knox:before {
+  content: "\ea16";
+}
+.ngui-icon-haserror:before {
+  content: "\ea17";
+}
+.ngui-icon-upgradefirmware:before {
+  content: "\ea03";
+}
+.ngui-icon-updatemanagementprofile:before {
+  content: "\ea01";
+}
+.ngui-icon-export:before {
+  content: "\ea00";
+}
+.ngui-icon-reset:before {
+  content: "\e9ff";
+}
+.ngui-icon-sendscriptviasms:before {
+  content: "\e9fe";
+}
+.ngui-icon-advancedchart:before {
+  content: "\e9f9";
+}
+.ngui-icon-featurecontrol:before {
+  content: "\e9ef";
+}
+.ngui-icon-lockdown:before {
+  content: "\e9f0";
+}
+.ngui-icon-vpn:before {
+  content: "\e9f1";
+}
+.ngui-icon-wifi:before {
+  content: "\e9f2";
+}
+.ngui-icon-profile-connection:before {
+  content: "\e9f2";
+}
+.ngui-icon-nodevicefiles:before {
+  content: "\e9ec";
+}
+.ngui-icon-nologs:before {
+  content: "\e9e9";
+}
+.ngui-icon-noinstalledapplications:before {
+  content: "\e9ea";
+}
+.ngui-icon-nouser:before {
+  content: "\e9eb";
+}
+.ngui-icon-noassignedrule:before {
+  content: "\e9e4";
+}
+.ngui-icon-nocertificate:before {
+  content: "\e9e5";
+}
+.ngui-icon-nocollecteddata:before {
+  content: "\e9e6";
+}
+.ngui-icon-noprofile:before {
+  content: "\e9e7";
+}
+.ngui-icon-noquarantine:before {
+  content: "\e9e8";
+}
+.ngui-icon-nocustomattribute:before {
+  content: "\e9ca";
+}
+.ngui-icon-noadvancedconfigurations:before {
+  content: "\e9ca";
+}
+.ngui-icon-reinstallpackage:before {
+  content: "\e9d8";
+}
+.ngui-icon-installprofile:before {
+  content: "\e9da";
+}
+.ngui-icon-revokeprofile:before {
+  content: "\e9db";
+}
+.ngui-icon-disableworkprofile:before {
+  content: "\e9dc";
+}
+.ngui-icon-enableworkprofile:before {
+  content: "\e9dd";
+}
+.ngui-icon-subjectdown:before {
+  content: "\e9de";
+}
+.ngui-icon-subjectup:before {
+  content: "\e9df";
+}
+.ngui-icon-userdown:before {
+  content: "\e9e0";
+}
+.ngui-icon-userup:before {
+  content: "\e9e1";
+}
+.ngui-icon-datedown:before {
+  content: "\e9e2";
+}
+.ngui-icon-dateup:before {
+  content: "\e9e3";
+}
+.ngui-icon-groupnote:before {
+  content: "\e9d7";
+}
+.ngui-icon-nonote:before {
+  content: "\e9d1";
+}
+.ngui-icon-enableagentupgrade:before {
+  content: "\e9d2";
+}
+.ngui-icon-upgradeagentnow:before {
+  content: "\e9d3";
+}
+.ngui-icon-migratetoelmagent:before {
+  content: "\e9d4";
+}
+.ngui-icon-disablelostmode:before {
+  content: "\e9ce";
+}
+.ngui-icon-enablelostmode:before {
+  content: "\e9cf";
+}
+.ngui-icon-logadb:before {
+  content: "\e9cd";
+}
+.ngui-icon-filetype-certificatewithkey:before {
+  content: "\e9c7";
+}
+.ngui-icon-filetype-video:before {
+  content: "\e9bc";
+}
+.ngui-icon-filetype-msword:before {
+  content: "\e9bd";
+}
+.ngui-icon-filetype-xls:before {
+  content: "\e9be";
+}
+.ngui-icon-filetype-pdf:before {
+  content: "\e9bf";
+}
+.ngui-icon-filetype-img:before {
+  content: "\e9c0";
+}
+.ngui-icon-filetype-document:before {
+  content: "\e9c1";
+}
+.ngui-icon-note:before {
+  content: "\e9c1";
+}
+.ngui-icon-filetype-png:before {
+  content: "\e9c2";
+}
+.ngui-icon-filetype-bmp:before {
+  content: "\e9c3";
+}
+.ngui-icon-filetype-jpeg:before {
+  content: "\e9c4";
+}
+.ngui-icon-filetype-gif:before {
+  content: "\e9c5";
+}
+.ngui-icon-locationcurrent:before {
+  content: "\e99b";
+}
+.ngui-icon-locationprevious:before {
+  content: "\e9a7";
+}
+.ngui-icon-groupdetail:before {
+  content: "\e966";
+}
+.ngui-icon-factoryreset:before {
+  content: "\e928";
+}
+.ngui-icon-noannouncement:before {
+  content: "\e96d";
+}
+.ngui-icon-type-DeviceAndroidForWork:before {
+  content: "\e938";
+}
+.ngui-icon-screen-DeviceWindowsDesktopLegacy:before {
+  content: "\e96e";
+}
+.ngui-icon-type-DeviceWindowsDesktopLegacy:before {
+  content: "\e96f";
+}
+.ngui-icon-type-DeviceMac:before {
+  content: "\e940";
+}
+.ngui-icon-screen-DeviceAndroidElm:before {
+  content: "\e942";
+}
+.ngui-icon-screen-DeviceAndroidForWork:before {
+  content: "\e943";
+}
+.ngui-icon-screen-DeviceAndroidKnox:before {
+  content: "\e944";
+}
+.ngui-icon-screen-DeviceIos:before {
+  content: "\e945";
+}
+.ngui-icon-screen-DeviceMac:before {
+  content: "\e946";
+}
+.ngui-icon-screen-DeviceWindowsCE:before {
+  content: "\e947";
+}
+.ngui-icon-screen-DeviceWindowsLegacy:before {
+  content: "\e948";
+}
+.ngui-icon-screen-DeviceWindowsDesktop:before {
+  content: "\e949";
+}
+.ngui-icon-type-DeviceWindowsDesktop:before {
+  content: "\e94a";
+}
+.ngui-icon-type-DeviceWindowsLegacy:before {
+  content: "\e94b";
+}
+.ngui-icon-screen-DeviceWindowsPhone:before {
+  content: "\e94c";
+}
+.ngui-icon-screen-DeviceAndroidPlus:before {
+  content: "\e94e";
+}
+.ngui-icon-type-DeviceIos:before {
+  content: "\e94f";
+}
+.ngui-icon-screen-DeviceWindowsRuntime:before {
+  content: "\e950";
+}
+.ngui-icon-type-DeviceAndroidGeneric:before {
+  content: "\e951";
+}
+.ngui-icon-type-DeviceAndroidKnox:before {
+  content: "\e952";
+}
+.ngui-icon-screen-DeviceAndroidGeneric:before {
+  content: "\e953";
+}
+.ngui-icon-type-DeviceAndroidPlus:before {
+  content: "\e954";
+}
+.ngui-icon-type-DeviceWindowsPhone:before {
+  content: "\e955";
+}
+.ngui-icon-type-DeviceAndroidElm:before {
+  content: "\e956";
+}
+.ngui-icon-type-DeviceWindowsRuntime:before {
+  content: "\e957";
+}
+.ngui-icon-printer:before {
+  content: "\ea26";
+}
+.ngui-icon-type-DeviceZebraPrinter:before {
+  content: "\e958";
+}
+.ngui-icon-printerscreen:before {
+  content: "\e959";
+}
+.ngui-icon-screen-DeviceZebraPrinter:before {
+  content: "\e95a";
+}
+.ngui-icon-desktopscreen:before {
+  content: "\e92c";
+}
+.ngui-icon-laptopscreen:before {
+  content: "\e92d";
+}
+.ngui-icon-phonescreen:before {
+  content: "\e92e";
+}
+.ngui-icon-ruggedscreen:before {
+  content: "\e92f";
+}
+.ngui-icon-tabletscreen:before {
+  content: "\e930";
+}
+.ngui-icon-desktop:before {
+  content: "\e901";
+}
+.ngui-icon-phone:before {
+  content: "\e90d";
+}
+.ngui-icon-tablet:before {
+  content: "\e90e";
+}
+.ngui-icon-type-DeviceWindowsCE:before {
+  content: "\e941";
+}
+.ngui-icon-rugged:before {
+  content: "\e910";
+}
+.ngui-icon-laptop:before {
+  content: "\e911";
+}
+.ngui-icon-type-DeviceLinux:before {
+  content: "\e908";
+}
+.ngui-icon-screen-DeviceLinux:before {
+  content: "\e909";
+}
+.ngui-icon-triarrow:before {
+  content: "\e920";
+}
+.ngui-icon-dropdown:before {
+  content: "\e920";
+}
+.ngui-icon-datetime:before {
+  content: "\e9c8";
+}
+.ngui-icon-generateunlockcode:before {
+  content: "\e9c9";
+}
+.ngui-icon-removeprogram:before {
+  content: "\e9b8";
+}
+.ngui-icon-setasmanagedapplication:before {
+  content: "\e9b9";
+}
+.ngui-icon-noimage:before {
+  content: "\e9b7";
+}
+.ngui-icon-sendsmsmessage:before {
+  content: "\e9cb";
+}
+.ngui-icon-upgradeagent:before {
+  content: "\e9ba";
+}
+.ngui-icon-arrow:before {
+  content: "\e9ac";
+}
+.ngui-icon-arrowright:before {
+  content: "\e9ac";
+}
+.ngui-icon-executesearch:before {
+  content: "\e9ac";
+}
